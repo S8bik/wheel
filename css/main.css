@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url(fortune.css);
+
+body *, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One', cursive;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+:root  {
+    --main-color: #7DA7D9;
+    --text-color: #2E3192;
+    --button-background: #F1F1F1;
+}
+
+ 

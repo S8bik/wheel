@@ -1,0 +1,41 @@
+.wheel-of-fortune {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 30px 15px;
+}
+
+.wheel-arrow {
+    width: 25px;
+    margin-bottom: -15px;
+    position: relative;
+    z-index: 10;
+}
+
+.wheel {
+    max-width: 600px;
+    margin-bottom: 50px;
+    transform-origin: center;
+    transform: rotate(0deg);
+    transition-duration: 2s;
+}
+
+.wheel img {
+    border-radius: 50%;
+    background-color: antiquewhite;
+    
+}
+
+.spin-button {
+    color: var(--text-color);
+    font-size: 25px;
+    background-color: var(--button-background);
+    border: 1px solid var(--button-background);
+    border-radius: 35px;
+    width: 200px;
+    height: 60px;
+}
+
